@@ -16,6 +16,14 @@ public class Employee {
 
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public Employee(String name, String role) {
         this.name  = name;
         this.role = role;
